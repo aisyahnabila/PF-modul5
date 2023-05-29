@@ -70,7 +70,7 @@
                             <td>{{ $employee->age }}</td>
                             <td>{{ $employee->position_name }}</td>
                             <td>
-                                {{-- button fitur --}}
+                                {{-- Actions Section --}}
                                 <div class="d-flex">
                                     <a href="{{ route('employees.show', ['employee' => $employee->employee_id]) }}"
                                         class="btn btn-outline-dark btn-sm me-2"><i
