@@ -68,7 +68,7 @@
                             <td>{{ $employee->lastname }}</td>
                             <td>{{ $employee->email }}</td>
                             <td>{{ $employee->age }}</td>
-                            <td>{{ $employee->position_name }}</td>
+                            <td>{{ $employee->position->name }}</td>
                             <td>
                                 {{-- Actions Section --}}
                                 <div class="d-flex">
